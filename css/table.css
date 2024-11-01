@@ -88,3 +88,26 @@ th, td{
 .row6 {
     background-color: #f8cb8d;
 }
+
+.labelForm {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #9a631f;
+    border-radius: 10px 14px;
+    margin-inline: 6%;
+    padding: 3%;
+    color: #f7dc8f;
+}
+
+input {
+    border: 1px solid #b9700b;
+    border-radius: 5px; 
+    font-size: 120%;
+    padding: 6px; 
+    margin: 6px;
+}
+form {
+    margin-left: 40%;
+}
