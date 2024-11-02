@@ -60,11 +60,8 @@ th, td{
     padding: 7px, 10px, 10px, 10px; 
 }
 
-.headTable {
-    background-color: #55360b;
-    color: white;
-}
 
+/*
 .row1 {
     background-color: #c27a16;
 }
@@ -88,6 +85,20 @@ th, td{
 .row6 {
     background-color: #f8cb8d;
 }
+    */
+
+tbody tr:nth-child(even) {
+    background-color: #c0ae80;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.headTable {
+    background-color: #55360b;
+    color: black;
+} 
 
 .labelForm {
     text-align: center;
